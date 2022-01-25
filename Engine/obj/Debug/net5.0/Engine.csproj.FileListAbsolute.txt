@@ -1,0 +1,12 @@
+C:\Users\hmack\source\repos\SuperAdventure\Engine\bin\Debug\net5.0\Engine.deps.json
+C:\Users\hmack\source\repos\SuperAdventure\Engine\bin\Debug\net5.0\Engine.dll
+C:\Users\hmack\source\repos\SuperAdventure\Engine\bin\Debug\net5.0\ref\Engine.dll
+C:\Users\hmack\source\repos\SuperAdventure\Engine\bin\Debug\net5.0\Engine.pdb
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.csproj.AssemblyReference.cache
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.AssemblyInfoInputs.cache
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.AssemblyInfo.cs
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.dll
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\ref\Engine.dll
+C:\Users\hmack\source\repos\SuperAdventure\Engine\obj\Debug\net5.0\Engine.pdb

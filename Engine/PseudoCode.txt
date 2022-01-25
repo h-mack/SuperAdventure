@@ -1,0 +1,82 @@
+MoveTo()
+if location has item required to enter
+	if player does not have item
+		display message
+		don't let player move here (stop processing the move)
+update player current location
+	display location name and description
+	show/hide available movement buttons
+completely heal player
+	update UI hit point display
+does location have quest?
+	if so, does player already have quest?
+		if so, is quest already completed?
+			if not, does player have the items to complete the quest?
+				if so, complete the quest
+					display message
+					remove question completion items from inventory
+					give quest reward
+					mark player's quest as completed
+		if not, give the player the quest
+			display message
+			add quest to player quest list
+is there a monster at location?
+	if so,
+		display message
+		spawn new monster
+		displayer combat comboboxes and buttons
+			repopulate comboboxes, in case inventory changed
+	if not,
+		hide combat comboboxes and buttons
+refresh player inventory in UI - in case it changed
+refresh player quest list in UI - in case it changed
+refresh cboWeapons ComboBox in UI
+refresh cboPotions ComboBox in UI
+
+-- Need to create MoveTo function for above pseudo code.
+-- Store location as Player class property
+-- Need to create instances of monsters at locations
+
+UseWeapon()
+get currently selected weapon from cboWeapons ComboBox
+Determine amount of damage the player does to monster
+Apply the damage to the monster's CurrentHitPoints
+	Display message
+If monster is dead
+	Display victory message
+	Give player experience points for killing monster
+		Display message
+	Give player gold for killing the monster
+		Display message
+	Get loot items from the monster
+		Display message for each loot item
+		Add item to player inventory
+	Refresh player data on UI
+		Gold and ExperiencePoints
+		Inventory list and ComboBoxes
+	"Move" player to current location
+		This will heal player and create a new monster
+If monster is still alive
+	Determine amount of damage the monster does to player
+	Display message
+	Subtract damage from player's CurrentHitPoints
+		Refresh player data in UI
+	If player is dead
+		Display message
+		Move player to "Home" location
+
+UsePotion()
+Get currently selected potion from cboPotions ComboBox
+Add healing amount to player's CurrentHitPoints
+	CurrentHitPoints cannot exceed player's MaximumHitPoints
+Remove the potion from the player's inventory
+Display message
+Monster gets their turn to attack
+	Determine amount of damage monster does to Player
+	Display message
+	Subtract damage from Player's CurrentHitPoints
+		Refresh player data in UI
+	If player is dead
+		Display message
+		Move player to "Home" location
+Refresh player data in UI
